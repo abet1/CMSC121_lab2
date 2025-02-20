@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Enter a string</h1>
+
+        
+        <input type="text" id="user_string" name="string" placeholder="Enter a string" required>
+        <button onclick="addStringToList()">Submit String</button>
+        <button onclick="removeStringFromList()">Delete Selected String/s</button>
+
+        <ul id="string_list">
+        </ul>
+
+        <script src="form_logic.js"></script>
+    </body>
+</html>
